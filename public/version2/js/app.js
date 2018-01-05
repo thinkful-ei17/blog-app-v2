@@ -50,7 +50,7 @@ const renderDetail = function (store) {
   const el = $('#' + store.view);
   const item = store.item;
   el.find('.title').text(item.title);
-  el.find('.author').text(item.authorName);  //new set authorName
+  el.find('.author').text(item.username);  //new set username
   el.find('.content').text(item.content);
 };
 

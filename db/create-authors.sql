@@ -18,8 +18,8 @@ CREATE TABLE stories (
 ALTER SEQUENCE stories_id_seq RESTART WITH 1000;
 
 INSERT INTO authors (username, email) VALUES
-('MrHi', 'hi@hi.com'),
-('MsHey', 'hey@hey.com'),
+('David', 'david@people.com'),
+('Candace', 'candace@people.com'),
 ('MrHello', 'hello@hello.com');
 
 INSERT INTO stories (title, content, author_id) VALUES 

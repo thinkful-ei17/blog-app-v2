@@ -33,8 +33,8 @@ INSERT INTO stories (title, content, author_id) VALUES
 ('11 ways investing in cats can make you a millionaire', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.', 2),
 ('Why you should forget everything you learned about cats', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.', 1);
 
-SELECT authors.username as user, stories.title 
-    FROM stories
-    INNER JOIN authors
-    ON authors.id = stories.author_id;
+-- SELECT authors.username as user, stories.title 
+--     FROM stories
+--     INNER JOIN authors
+--     ON authors.id = stories.author_id;
     

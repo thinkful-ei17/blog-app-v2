@@ -16,7 +16,7 @@ const renderList = function (store) {
   const listItems = store.list.map((item) => {
     //new added byline to list results
     return `<li id="${item.id}">
-              <a href="${item.url}" class="detail">${item.title}</a> <span>by: ${item.authorName}</span>
+              <a href="${item.url}" class="detail">${item.title}</a> <span>by: ${item.username}</span>
             </li>`;
   });
   el.empty().append('<ul>').find('ul').append(listItems);
